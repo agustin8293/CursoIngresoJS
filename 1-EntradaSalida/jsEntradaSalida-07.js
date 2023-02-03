@@ -5,21 +5,73 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	alert("ok");	
+	let NumeroUno;
+	let NumeroDos;
+	let resultado;
+
+	NumeroUno = txtIdNumeroUno.value;
+	NumeroUno = parseInt(NumeroUno)
+
+	NumeroDos = txtIdNumeroDos.value;
+	NumeroDos = parseInt(NumeroDos)
+
+	resultado= NumeroUno + NumeroDos;
+
+	alert("El resultado es: " + resultado);
+		
 }
 
 function restar()
 {
 	
+	let NumeroUno;
+	let NumeroDos;
+	let resultado;
+
+	NumeroUno = txtIdNumeroUno.value;
+	NumeroUno = parseInt(NumeroUno)
+
+	NumeroDos = txtIdNumeroDos.value;
+	NumeroDos = parseInt(NumeroDos)
+
+	resultado= NumeroUno - NumeroDos;
+
+	alert("El resultado es: " + resultado);
 }
 
 function multiplicar()
 { 
 	
+	let NumeroUno;
+	let NumeroDos;
+	let resultado;
+
+	NumeroUno = txtIdNumeroUno.value;
+	NumeroUno = parseInt(NumeroUno)
+
+	NumeroDos = txtIdNumeroDos.value;
+	NumeroDos = parseInt(NumeroDos)
+
+	resultado= NumeroUno * NumeroDos;
+
+	alert("El resultado es: " + resultado);
 }
 
 function dividir()
 {
 	
+	let NumeroUno;
+	let NumeroDos;
+	let resultado;
+
+	NumeroUno = txtIdNumeroUno.value;
+	NumeroUno = parseInt(NumeroUno)
+
+	NumeroDos = txtIdNumeroDos.value;
+	NumeroDos = parseInt(NumeroDos)
+
+	resultado= NumeroUno / NumeroDos;
+
+	alert("El resultado es: " + resultado);
 }
 
